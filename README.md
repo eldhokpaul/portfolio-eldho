@@ -11,7 +11,7 @@
 * [x] Template based on tailwindcss
 * [x] Reusable layouts components
 
-## Live demo
+<!-- ## Live demo -->
 
 ## Usage
 
