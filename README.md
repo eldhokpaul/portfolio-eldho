@@ -1,10 +1,8 @@
-# simple-hackathon-vue
+# Portfolio-Vue
 
-<p align="center">
+<!-- <p align="center">
 <img src="src/assets/layouts.gif" />
-</p>
-
-Simple [Vue-js](https://vuejs.org/) project template for hackathon based on [tailwindcss](https://tailwindcss.com/)
+</p> -->
 
 ## Features
 * [x] Three responsive layouts
@@ -14,24 +12,20 @@ Simple [Vue-js](https://vuejs.org/) project template for hackathon based on [tai
 * [x] Reusable layouts components
 
 ## Live demo
-[https://awakentrue.github.io/simple-hackathon-vue/](https://awakentrue.github.io/simple-hackathon-vue/)
 
 ## Usage
-### 1. Fork or clone this repository
-```
- git clone https://github.com/awakentrue/simple-hackathon-vue.git 
-```
-### 2. Install [Node.js](https://nodejs.org/en/)
 
-### 3. Install dependencies
+### 1. Install [Node.js](https://nodejs.org/en/)
+
+### 2. Install dependencies
 ```
 npm install
 ```
-### 4. Serve with hot reload
+### 3. Serve with hot reload
 ```
 npm run serve
 ```
-### 5. Build for production
+### 4. Build for production
 ```
 npm run build
 ```

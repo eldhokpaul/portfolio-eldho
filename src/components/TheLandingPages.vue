@@ -2,7 +2,7 @@
   <fragment>
     <section class="h-full py-8 max-w-screen-lg mx-auto flex flex-col items-center justify-center">
       <transition name="fade" appear>
-        <h1 class="text-7xl text-gray-800 dark:text-white text-center font-semibold leading-none tracking-tighter mb-4">simple-hackathon-vue</h1>
+        <h1 class="text-7xl text-gray-800 dark:text-white text-center font-semibold leading-none tracking-tighter mb-4">portfolio-eldho</h1>
       </transition>
       <transition name="fade" appear>
         <h2 class="text-2xl text-gray-600 dark:text-gray-400 opacity-75 font-normal leading-tight mb-8">Quick start project for hackathons</h2>
@@ -57,7 +57,7 @@ export default {
   },
   methods: {
     navigateToGithub() {
-      window.location.href = "https://github.com/awakentrue/simple-hackathon-vue";
+      window.location.href = "https://github.com/eldhokpaul/portfolio-eldho";
     },
   },
 };
