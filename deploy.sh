@@ -1,14 +1,14 @@
-# #!/usr/bin/env sh
+#!/usr/bin/env sh
 
-# set -e
+set -e
 
-# npm run build
+npm run build
 
-# cd dist
+cd dist
 
-# git init
-# git add -A
-# git commit -m "Deploy"
-# git push -f git@github.com:awakentrue/simple-hackathon-vue.git main:gh-pages
+git init
+git add -A
+git commit -m "Deploy"
+git push -f git@github.com:eldhokpaul/portfolio-eldho.git
 
-# cd -
+cd -
