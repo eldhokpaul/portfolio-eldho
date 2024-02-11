@@ -5,7 +5,7 @@
       src="@/assets/photo.jpeg"
       alt=""
       width="1000"
-      height="1411" />
+      height="800" />
     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
       <div>
         <p class="text-lg font-medium text-light-primary dark:text-dark-primary">
@@ -14,8 +14,8 @@
         </p>
       </div>
       <div class="font-medium">
-        <div class="text-sky-blue">Demi Taylor</div>
-        <div class="text-light-primary dark:text-dark-primary">HR, Saunafolk</div>
+        <!-- <div class="text-sky-blue">Demi Taylor</div> -->
+        <!-- <div class="text-light-primary dark:text-dark-primary">HR, Saunafolk</div> -->
       </div>
     </div>
   </figure>
@@ -23,6 +23,6 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "Index",
 };
 </script>

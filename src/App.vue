@@ -7,20 +7,12 @@
       <template #header>
         <TheHeader />
       </template>
-      <template #content>
-        <transition name="fade" appear>
-          <div class="box">
-            <router-view class="m-2" />
-          </div>
-        </transition>
-      </template>
-      <template #sidebar>
-        <transition name="fade" appear>
-          <TheSidebar />
-        </transition>
-      </template>
+
       <template #pages>
-        <TheLandingPages />
+        <TheLandingPages>
+          <template #sidebar> <TheSidebar /> </template>
+          <template #content> <router-view /> </template>
+        </TheLandingPages>
       </template>
     </component>
   </div>
@@ -28,8 +20,8 @@
 
 <script>
 import UiToggleButton from "@/components/ui/UiToggleButton";
-import SidebarLayout from "@/layouts/SidebarLayout";
-import CenteredLayout from "@/layouts/CenteredLayout";
+// import SidebarLayout from "@/layouts/SidebarLayout";
+// import CenteredLayout from "@/layouts/CenteredLayout";
 import LandingLayout from "@/layouts/LandingLayout";
 import TheHeader from "@/components/TheHeader";
 import TheSidebar from "@/components/TheSidebar";
@@ -44,8 +36,6 @@ export default {
     TheSidebar,
     TheHeader,
     TheLogo,
-    SidebarLayout,
-    CenteredLayout,
     LandingLayout,
     UiToggleButton,
   },
@@ -56,12 +46,10 @@ export default {
     },
     layout() {
       const availableLayouts = {
-        [layouts.centered]: CenteredLayout,
-        [layouts.sidebar]: SidebarLayout,
         [layouts.landing]: LandingLayout,
       };
 
-      const currentLayout = this.$store.state.layout;
+      const currentLayout = "landing";
       return availableLayouts[currentLayout];
     },
   },

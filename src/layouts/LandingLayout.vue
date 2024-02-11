@@ -8,7 +8,6 @@
         </div>
       </div>
     </header>
-
     <slot :name="slotNames.pages" />
   </div>
 </template>
@@ -22,6 +21,7 @@ export default {
         logo: "logo",
         header: "header",
         pages: "pages",
+        content: "content",
       },
     };
   },

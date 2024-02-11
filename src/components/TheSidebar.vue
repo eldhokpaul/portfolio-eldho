@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <UiSidebar class="m-2">
+    <UiSidebar class="m-2 h-2/3">
       <UiSidebarItem to="/" name="Home" icon="home" />
       <UiSidebarItem to="/profile" name="Profile" icon="user" />
       <UiSidebarItem to="/messages" name="Messages" icon="envelope" />
